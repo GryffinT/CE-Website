@@ -1,0 +1,22 @@
+html {
+    display: flex;
+    width: 90%;
+}
+
+html body nav {
+    background-color: rgba(255, 255, 255, 0);
+    height: clamp(20px .5vh 50px);
+    z-index: 100;
+    transition: background-color .5s ease;
+    margin-bottom: auto;
+}
+
+html body nav : height > 50px {
+    background-color: rgba(255, 255, 255, 1)
+}
+
+html body nav h1 {
+    text-decoration: none;
+    color: white;
+    transition: color .5s ease, text-decoration .5s ease;
+}
