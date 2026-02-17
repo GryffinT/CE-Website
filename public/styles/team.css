@@ -1,0 +1,172 @@
+#teamHero {
+  background-color: maroon;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 10% 10% 10% 10%;
+  gap: 5%;
+  box-sizing: border-box;
+  position: relative;
+}
+
+#teamHero img {
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: -33%;
+  z-index: 5;
+  box-shadow: 0px 8px 24px rgba(0,0,0,.5);
+}
+
+#teamHero div {
+  color: white;
+}
+
+#mission {
+  padding: 5% 5% 5% 5%;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 8px 24px rgba(0,0,0,.5);
+}
+
+#team {
+  background-color: rgb(230,230,230);
+  text-align: center;
+  padding: 5% 5% 5% 5%;
+}
+
+.hr-title {
+  margin-top: 100px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  gap: 10px;
+  font-size: 20px;
+  color: black;
+}
+
+#team h3 {
+  font-weight: normal;
+  margin-bottom: 80px;
+}
+
+.hr-title hr {
+  flex: 1;
+  border: none;
+  border-top: 1px solid black;
+  opacity: 0.5;
+}
+
+#team section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 5%;
+}
+
+.memberCard {
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+  display: flex;
+  border: none;
+  flex-direction: column;
+}
+
+.memberCard h1, 
+.memberCard p {
+  margin: 0px;
+  padding: 20px;
+}
+
+.memberCard hr {
+  width: 80%;
+}
+
+.memberCard img {
+  aspect-ratio: 1/1;
+  width: 100%;
+  height: auto;
+  border: none;
+  border-radius: 20px 20px 0 0;
+  object-fit: cover;
+}
+
+#closing {
+  justify-items: center;
+  align-items: center;
+  padding: 2rem 5rem 2rem 5rem;
+  display: grid;
+  grid-template-columns: 1fr .5fr;
+  background-color: white;
+}
+
+#closing h2 {
+  font-weight: normal;
+}
+
+#closing button {
+  position: relative;
+  overflow: hidden;
+  padding: 10px;
+  background-color: maroon;
+  color: white;
+  font-size: 100%;
+  font-weight: bold;
+  border: none;
+  width: 40%;
+  aspect-ratio: 3/1;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.25s ease;
+}
+
+#closing button::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -150%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.45) 50%,
+    transparent 100%
+  );
+  transform: skewX(-20deg);
+  animation: autoShine 3s ease-in-out infinite;
+}
+
+#closing button:hover {
+  transform: scale(1.05);
+}
+
+#closing button:active {
+  animation: clickPulse 0.2s ease-out;
+}
+
+@keyframes autoShine {
+  0% {
+    left: -150%;
+  }
+  40% {
+    left: 200%;
+  }
+  100% {
+    left: 200%;
+  }
+}
+
+@keyframes clickPulse {
+  0% {
+    transform: scale(1.05);
+  }
+  50% {
+    transform: scale(0.92);
+  }
+  100% {
+    transform: scale(1.05);
+  }
+}
+
