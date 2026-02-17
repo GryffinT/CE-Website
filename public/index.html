@@ -11,13 +11,13 @@
 <body>
     <nav id='navbar'>
       <button type="">SPONSORS</button>
-      <button type="">HOME</button>
+      <button class="active">HOME</button>
       <img style="width: 100px; height: 100px;" src="https://i.postimg.cc/J7JsGs5S/Screenshot-2025-11-06-203858-removebg-preview.png">
       <button type="">THE TEAM</button>
       <button type="">ABOUT US</button>
       <div id="nav-underline"></div>
     </nav>
-    <script src="../javascript/navbar.js"defer></script>
+    <script src="../javascript/navbar.js" defer></script>
     <section class="heroSection">
       <h1>Cutting Edge</h1>
       <h2 style="top: 30vh; font-size: clamp(20px, 2vw, 40px);">Edgewood Robotics</h2>
@@ -34,8 +34,39 @@
       </div>
     </section>
     <script src="../javascript/carousel.js" defer></script>
-    <section>
-      Hello
+    <section id="FRC">
+      <h1 id="header"></h1>
+      <h1 id="subheader"></h1>
+      <section id="info">
+        <img style="align-self: center;" src="https://i.postimg.cc/m2T7VBK8/imgbin-2016-first-robotics-competition-2018-first-robotics-competition-first-tech-challenge-first-le.png" alt="FRC Logo">
+        <h1 id="description"></h1>
+      </section>
     </section>
+    <script src='../javascript/FRCRenderer.js' defer></script>
+    <section id="outreach">
+      <h1 style="margin-top: 0px;">EVENTS</h1>
+      <h3>Checkout what we've been up to!</h3>
+      <div id="canvas">
+      </div>
+    </section>
+    <script src='../javascript/outreachRenderer.js' defer></script>
+    <footer>
+      <div style="display: flex; align-items: center; gap: 2rem; margin-bottom: 1rem;">
+          <img style="width: 100px; height: 100px;" src="https://i.postimg.cc/J7JsGs5S/Screenshot-2025-11-06-203858-removebg-preview.png">
+          <h1 style="margin: 0;">Cutting Edge #10909</h1>
+      </div>
+      
+      <hr style="border: none; height: 2px; background-color: rgb(255, 255, 255); margin-bottom: 1rem;">
+      
+      <div style="display: flex; align-items: flex-start; gap: 3rem;">
+          <p style="font-weight: bold; margin: 0;">
+              2219 Monroe Street<br>
+              Madison, WI 53711
+          </p>
+          <p style="margin: 0;">
+              edgewoodrobotics@edgewoodhs.org
+          </p>
+      </div>
+    </footer>
 </body>
 </html>

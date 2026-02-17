@@ -2,8 +2,10 @@ const navBar = document.getElementById('navbar');
 const navButtons = navBar.querySelectorAll('button');
 const underline = document.getElementById('nav-underline');
 
+let height = 10;
+
 function scrollTransparency() {
-  const scrolled = window.scrollY > 10;
+  const scrolled = window.scrollY > height;
 
   navBar.style.backgroundColor = scrolled
     ? 'rgba(255,255,255,1)'
