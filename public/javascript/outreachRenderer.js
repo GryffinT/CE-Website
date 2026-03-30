@@ -1,6 +1,15 @@
+
+// This renders the outreach events for the team on the front page!
+
 const canvas = document.getElementById('canvas');
 
-// Sponsors
+/*
+ * To add new outreach events copy and paste the below template into the below events array!
+ *
+ *  { "name": "EVENT NAME", "image": "https://i.postimg.cc/qqk9X7w6/IMG-9474.jpg", "description": "Desc" },
+ * 
+ * The last item CANNOT have a comma OR semicolon after it!
+ */
 
 const events = [
 

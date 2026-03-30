@@ -1,3 +1,9 @@
+/*
+  * This is the member renderer
+  * Dont edit it too much unless you understand it!
+  */
+  
+
 class ELMNT {
   constructor(type, text, CSSclass, event, handler, id) {
     this.el = document.createElement(type);
@@ -18,8 +24,31 @@ class ELMNT {
   }
 }
 
-// Template: { name: "", desc: "", role: "", img: "" }
-// Base photo: https://i.postimg.cc/bwx6MVgY/istockphoto-2171382633-612x612.jpg
+/*
+ * To add new members its similar to the sponsor page
+ * As is done below, add a new member to their respective team using the below templates!
+ * Also, if someone does not provide an image use the below tempalte URL, feel free to change it!
+ *
+ * Base photo: https://i.postimg.cc/bwx6MVgY/istockphoto-2171382633-612x612.jpg
+ *
+ * Template for NOT LAST member: { name: "", desc: "", role: "", img: "" },
+ * Template for LAST MEMBER: { name: "", desc: "", role: "", img: "" };
+ *
+ * IF NOT USING THE TWO TEMPLATES READ THIS:
+ * If the member is the last member of their team add a semicolon to the end!
+ * if the member is NOT the last member of teir team add a comma to the end!
+ *
+ * Example:
+ *
+ *  team: [
+ *
+ *    { name: "", desc: "", role: "", img: "" }, This is NOT the last team member because there are members after them so it ends with a comma!
+ *    { name: "", desc: "", role: "", img: "" }, This is also NOT the last team member because there are members after them so it ends with a comma!
+ *    { name: "", desc: "", role: "", img: "" }; This IS the last team member because there are not members after them so it ends with a semicolon!
+ *
+ *  ]
+ *
+ */
 
 const members = {
   
@@ -53,6 +82,12 @@ const members = {
   ]
 
 };
+
+/*
+ * These are the different team containers, to add new teams do the following:
+ * Create a new team container in HTML and assign the ID to the team name!
+ * then register the team below following the format below!
+ */
 
 const containers = {
   programmers: document.getElementById('programmers'),

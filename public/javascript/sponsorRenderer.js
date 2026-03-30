@@ -1,3 +1,5 @@
+// This renders the sponsors for the sponsors page!
+
 class ELMNT {
   constructor(type, text, CSSclass, event, handler, id) {
     this.el = document.createElement(type);
@@ -18,8 +20,32 @@ class ELMNT {
   }
 }
 
-// Template: { name: "", desc: "", role: "", img: "" }
-// Base photo: https://i.postimg.cc/bwx6MVgY/istockphoto-2171382633-612x612.jpg
+/*
+ * To add new sponsors its similar to the member page
+ * As is done below, add a new sponsor to their respective tier using the below templates!
+ * Because I copied this from the members page you'll have to pretend the headers match the tiers as is indicated by the comments.
+ * Dont actually change "programmers" to Crusader Champion because that will cause an error!
+ *
+ * Template for NOT LAST Sponsor: { name: "", desc: "", role: "", img: "" },
+ * Template for LAST Sponsor: { name: "", desc: "", role: "", img: "" };
+ *
+ * IF NOT USING THE TWO TEMPLATES READ THIS:
+ * If the sponsor is the last sponsor of their tier add a semicolon to the end!
+ * if the sponsor is NOT the last sponsor of teir tier add a comma to the end!
+ *
+ * Example:
+ *
+ *  tier: [
+ *
+ *    { name: "", desc: "", role: "", img: "" }, This is NOT the last sponsor because there are sponsors after them so it ends with a comma!
+ *    { name: "", desc: "", role: "", img: "" }, This is also NOT the last sponsor because there are sponsors after them so it ends with a comma!
+ *    { name: "", desc: "", role: "", img: "" }; This IS the last sponsor because there are not sponsors after them so it ends with a semicolon!
+ *
+ *  ]
+ *
+ */
+
+
 
 const members = {
   
@@ -47,12 +73,20 @@ const members = {
 
 };
 
+/*
+ * These are the different tier containers, to add new tiers do the following:
+ * Create a new tier container in HTML and assign the ID to the tier name!
+ * then register the tier below following the format below!
+ */
+
 const containers = {
   programmers: document.getElementById('programmers'),
   business: document.getElementById('business'),
   build: document.getElementById('build'),
   electrical: document.getElementById('electrical')
 };
+
+// Dont edit below!
 
 for (const divisionName in members) {
   const divisionMembers = members[divisionName];

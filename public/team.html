@@ -1,5 +1,8 @@
+<!-- Team page -->
+
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,72 +11,117 @@
       <link rel="stylesheet" href="../styles/global.css">
       <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
   </head>
+
   <body>
+
+    <!-- Navbar stuff -->
+
     <nav id='navbar'>
       <button onclick="window.location.href='sponsors.html'">SPONSORS</button>
       <button onclick="window.location.href='index.html'" >HOME</button>
       <img style="width: 100px; height: 100px;" src="https://i.postimg.cc/J7JsGs5S/Screenshot-2025-11-06-203858-removebg-preview.png">
+      
+                                                                  <!-- ^^^ NAVBAR CENTER LOGO IMAGE ^^^ -->
+
       <button class="active">THE TEAM</button>
       <button type="">ABOUT US</button>
       <div id="nav-underline"></div>
     </nav>
     <script src="../javascript/navbar.js" defer></script>
+    
+    <!-- Top section of the team page -->
+
     <section id="teamHero">
-      <img src="https://i.postimg.cc/s2VvtYTV/IMG-9481.jpg" alt="">
+      <img src="https://i.postimg.cc/s2VvtYTV/IMG-9481.jpg" alt="Team image">
+              <!-- ^^^ Image at the top of the team page ^^^ -->
+      
+      <!-- Short blurb at the top of the page -->
+
       <div>
         <h1>Who we are</h1>
         <h2>Problem solvers, programmers, designers, leaders, and team-players.</h2>
       </div>
+
     </section>
+
+    <!-- Mission Statement -->
+
     <section id="mission">
       <h1>Mission Statement</h1>
       <h3>Cutting Edge #10909 strives to uphold truth, compassion, justice, community, and partnership in all things, in addition to XYZ.</h3>
+            <!-- ^^^ Mission statement text ^^^ -->
+      
       <img style="padding: 20px; width: 80%; align-self: center;"src="https://i.postimg.cc/rmvB0LZB/screenshot-2025-12-23-13-41-55-removebg-preview.png" alt="Values image">
+                                                                                          <!-- ^^^ MISSION STATEMENT IMAGE ^^^ -->
     </section>
+
+    <!-- Team Structure -->
+
     <section id="team">
       <h1 style='margin-top: 0px;'>Our Members</h1>
       <h3>Cutting Edge #10909 is organized into five main sub-teams: Software & Programming, Outreach & Business, Build & Design, Electrical, and Strategy & Scouting. Each sub-team is led by a captain who coordinates activities and ensures effective communication within the team. This structure allows members to specialize in their areas of interest while contributing to the overall success of the team.</h3>
-      <div class="hr-title">
+    
+      <!-- Programmers & Software team -->
+
+      <!-- To add new teams simply copy from <div class "hr-title"> to the closing </section> tag and paste! (Also register it in memberRenderer.js) -->
+
+      <div class="hr-title"> <!-- Opening Tag -->
         <hr>
-        <span>Software & Programming</span>
+        <span>Software & Programming</span> <!-- team title -->
         <hr>
       </div>
       <h3>Members of the Software & Programming team program our robots, website, software, and other digital assets.</h3>
-      <section id="programmers">
-      </section>
-      <div class="hr-title">
+      <section id="programmers"> <!-- Programmer Div -->
+      </section> <!-- (closing tag) Add new programmers/software people to memberRenderer.js NOT HERE -->
+      
+      <!-- Outreach & Business team -->
+
+      <div class="hr-title"> 
         <hr>
-        <span>Outreach & Business</span>
+        <span>Outreach & Business</span> <!-- Team Title -->
         <hr>
       </div>
       <h3>Members of the Outreach & Business team manage our social media pressence, sponsors, donations, grants, and community outreach.</h3>
-      <section id="business">
-      </section>
+      <section id="business"> <!-- Outreach/Business Div -->
+      </section> <!-- Add new outreach/business members to memberRenderer.js NOT HERE -->
+      
+      <!-- Build & Deesign team -->
+
       <div class="hr-title">
         <hr>
-        <span>Build & Design</span>
+        <span>Build & Design</span> <!-- Team Title -->
         <hr>
       </div>
       <h3>Members of the Build & Design team both construct and design our robots.</h3>
-      <section id="build">
-      </section>
+      <section id="build"> <!-- Member holder -->
+      </section> <!-- Add new Build & Design members to memberRenderer.js NOT HERE -->
+      
+      <!-- Electrical team -->
+
       <div class="hr-title">
         <hr>
-        <span>Electrical</span>
+        <span>Electrical</span> <!-- Team Title -->
         <hr>
       </div>
       <h3>Members of the Electrical team design and build the electrical systems for our robots, including wiring, sensors, motors, etc.</h3>
-      <section id="electrical">
-      </section>
+      <section id="electrical"> <!-- Member holder -->
+      </section> <!-- Add new electrical members to memberRenderer.js NOT HERE -->
+    
     </section>
-    <script src="../javascript/memberRenderer.js" defer></script>
+    <script src="../javascript/memberRenderer.js" defer></script> <!-- EDIT THE FILE MENTIONED IN SRC TO ADD NEW MEMBERS -->
+
+    <!-- Closing info -->
+
     <section id="closing">
       <div>
       <h1>Have an interest or questions about joining?</h1>
       <h2>Fill out the attached for to the right or send inquiries to the email listed below!</h2>
       </div>
-      <button type="">JOIN THE TEAM</button>
+      <button type="">JOIN THE TEAM</button> <!-- ATTACH THE FORM TO JOIN ROBOTICS HERE! -->
     </section>
+
+    <!-- FOOTER -->
+
     <footer>
       <div style="display: flex; align-items: center; gap: 2rem; margin-bottom: 1rem;">
           <img style="width: 100px; height: 100px;" src="https://i.postimg.cc/J7JsGs5S/Screenshot-2025-11-06-203858-removebg-preview.png">

@@ -1,3 +1,10 @@
+
+/*  This is the carousel renderer
+ *  It renders the sponsor carousel on the home page
+ *  Dont edit it unless you know what you're doing!
+ *  Its sort of broken so you may need to adjust speed and width for subsequent sponsors!
+ */
+
 const carousel = document.getElementById('carousel');
 const track = document.getElementById('track');
 
@@ -24,7 +31,21 @@ class Element {
   }
 }
 
-// Sponsors
+/*
+ * Sponsors!
+ * To add new sponsors to the carousel you can copy and paste the template below
+ * Make sure to follow these rules:
+ * 1) If its not the last sponsor it NEEDS a comma after it!
+ * 2) If it IS the last sponsor add a semicolon! (;)
+ * 3) dont change "name" or "logo" but do change the URL/actual name
+ *
+ * Templates:
+ * IF NOT LAST: { "name": "CHANGE ME TO THE NAME!", "logo": "CHANGE ME TO THE LOGO!" },
+ * IF LAST: { "name": "CHANGE ME TO THE NAME!", "logo": "CHANGE ME TO THE LOGO!" };
+ *
+ */
+
+ // RECOMMENDATION: Keep it to just this many sponsors, change the existing ones to the top 7 sponsors if need be!
 
 const sponsors = [
 
@@ -60,7 +81,7 @@ wrapper2.style.left = `${wrapper.offsetWidth + 120}px`;
 
 // Carousel Speed
 
-const speed = .5;
+const speed = .5; // Changing this can cause issues make sure to offset other properties if need be.
 
 // Track Animation Function
 

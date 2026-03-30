@@ -1,32 +1,48 @@
+
+<!-- This is the HTML page- you shouldnt need to edit anything here to add members, outreach, sponsors, etc only to modify the actual structure.-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cutting Edge</title>
+    <title>Cutting Edge</title> <!-- Change this to change the name of the tab-->
     <link rel="stylesheet" href="../styles/index.css">
     <link rel="stylesheet" href="../styles/global.css">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
+
+    <!-- navbar/top navigation -->
+
     <nav id='navbar'>
       <button onclick="window.location.href='sponsors.html'">SPONSORS</button>
       <button class="active">HOME</button>
       <img style="width: 100px; height: 100px;" src="https://i.postimg.cc/J7JsGs5S/Screenshot-2025-11-06-203858-removebg-preview.png">
+                                                                  <!-- ^^^ logo at the top-center of the page ^^^ -->
       <button onclick="window.location.href='team.html'" >THE TEAM</button>
       <button type="">ABOUT US</button>
       <div id="nav-underline"></div>
     </nav>
     <script src="../javascript/navbar.js" defer></script>
+
+    <!-- top section with the carousel -->
+
     <section class="heroSection" style="text-align: center;">
       <div>
         
       </div>
+
+      <!-- top section text -->
+      
       <div>
         <h1>Cutting Edge</h1>
         <h2 style="top: 30vh; font-size: clamp(20px, 2vw, 40px);">Edgewood Robotics</h2>
         <h2 style="top: 40vh; font-size: clamp(10px, 1vw, 30px); color: black;">#10909</h2>
       </div>
+
+      <!-- sponsors carousel -->
+
       <div id='carousel'>
         <div id='track'>
           <div id='wrapper' class='carouselWrapper'>
@@ -39,6 +55,9 @@
       </div>
     </section>
     <script src="../javascript/carousel.js" defer></script>
+    
+    <!-- FRC description -->
+
     <section id="FRC">
       <h1 id="header"></h1>
       <h1 id="subheader"></h1>
@@ -47,14 +66,20 @@
         <h1 id="description"></h1>
       </section>
     </section>
-    <script src='../javascript/FRCRenderer.js' defer></script>
+    <script src='../javascript/FRCRenderer.js' defer></script> <!-- <- THE FRC INFO IS CHANGED IN THIS FILE ./public/javascript/renderer.js -->
+
+    <!-- outreach stuff -->
+
     <section id="outreach">
       <h1 style="margin-top: 0px;">EVENTS</h1>
       <h3>Checkout what we've been up to!</h3>
       <div id="canvas">
       </div>
     </section>
-    <script src='../javascript/outreachRenderer.js' defer></script>
+    <script src='../javascript/outreachRenderer.js' defer></script> <!-- change ./public/javascript/outreachRenderer.js to add new events -->
+
+    <!-- footer info -->
+
     <footer>
       <div style="display: flex; align-items: center; gap: 2rem; margin-bottom: 1rem;">
           <img style="width: 100px; height: 100px;" src="https://i.postimg.cc/J7JsGs5S/Screenshot-2025-11-06-203858-removebg-preview.png">

@@ -1,3 +1,6 @@
+
+<!-- Sponsors HTML skeleton -->
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -9,24 +12,44 @@
       <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
   </head>
   <body>
+
+    <!-- Navbar stuff -->
+
     <nav id='navbar'>
       <button class="active" >SPONSORS</button>
       <button onclick="window.location.href='index.html'" >HOME</button>
       <img style="width: 100px; height: 100px;" src="https://i.postimg.cc/J7JsGs5S/Screenshot-2025-11-06-203858-removebg-preview.png">
+                                                                                <!-- ^^^ Navbar image ^^^ -->
       <button onclick="window.location.href='team.html'">THE TEAM</button>
       <button type="">ABOUT US</button>
       <div id="nav-underline"></div>
     </nav>
     <script src="../javascript/navbar.js" defer></script>
+    
+    <!-- Top section of the sponsors page -->
+
     <section id="teamHero">
-      <img src="https://i.postimg.cc/vBp4cptL/IMG-9450.jpg" alt="">
+      <img src="https://i.postimg.cc/vBp4cptL/IMG-9450.jpg" alt="Sponsors photo">
+
+                    <!-- ^^^ Image of sponsors ^^^ -->
+
       <div>
+
+        <!-- Simple headers, change if you like -->
+
         <h1>Our Sponsors</h1>
         <h2>Nothing we do would be possible without the generous people who support us.</h2>
+      
       </div>
     </section>
+
+    <!-- Meat of the page (Sponsors section) -->
+
     <section id="team">
       <h1 style="text-align: center; padding-top: 2%;">A little help goes a long way<br><p style="font-weight: normal; font-size: large;">Our sponsors help us get the equiprment we need to do what we do.</p></h1>
+      
+      <!-- Equipment Carousel, each article is a different item, change them if you like -->
+
       <div class="carousel-wrapper" style="margin-top: 2.5%;">
           <div class="carousel" mask>
               
@@ -96,47 +119,68 @@
 
           </div>
       </div>
+
+      <!-- Sponsor Directory -->
+
+      <!-- Crusader Champions -->
+
       <div class="hr-title">
         <hr>
-        <span>Crusader Champion</span>
+        <span>Crusader Champion</span> <!-- Sponsor Tier Title -->
         <hr>
       </div>
-      <h3>$2,000+</h3>
-      <section id="programmers">
-      </section>
+      <h3>$2,000+</h3> <!-- Sponsor Tier Amount -->
+      <section id="programmers"> <!-- Actually Crusader champions, ID is for styling -->
+      </section> <!-- To add Crusader Champions add them in the sponsorRenderer.js file NOT HERE -->
+
+      <!-- Commanders -->
+
       <div class="hr-title">
         <hr>
-        <span>Commander</span>
+        <span>Commander</span> <!-- Sponsor Tier Title -->
         <hr>
       </div>
-      <h3>$501 - $2,000</h3>
-      <section id="business">
-      </section>
+      <h3>$501 - $2,000</h3> <!-- Sponsor Tier Amount Range -->
+      <section id="business"> <!-- Actually Commander Sponsors, ID is for styling -->
+      </section> <!-- Add Commander tier sponsors to sponsorRenderer.js file NOT HERE -->
+
+      <!-- Knights -->
+
       <div class="hr-title">
         <hr>
-        <span>Knight</span>
+        <span>Knight</span> <!-- Tier Title -->
         <hr>
       </div>
-      <h3>$251 - $500</h3>
-      <section id="build">
-      </section>
+      <h3>$251 - $500</h3> <!-- Tier amount Range -->
+      <section id="build"> <!-- Actually Knight Sponsors, ID is for styling -->
+      </section> <!-- Add Knight tier sponsors to sponsorRenderer.js file NOT HERE -->
+
+      <!-- Squires -->
+
       <div class="hr-title">
         <hr>
-        <span>Squire</span>
+        <span>Squire</span> <!-- Tier Title -->
         <hr>
       </div>
-      <h3>$1 - $250</h3>
-      <section id="electrical">
-      </section>
+      <h3>$1 - $250</h3> <!-- Tier amount range -->
+      <section id="electrical"> <!-- Actually Squire, id for styling -->
+      </section> <!-- Add Squire tier sponsors in sponsorRenderer.JS file NOT HERE -->
+
     </section>
-    <script src="../javascript/sponsorRenderer.js" defer></script>
+    <script src="../javascript/sponsorRenderer.js" defer></script> <!-- EDIT THIS FILE TO ADD SPONSORS -->
+    
+    <!-- Bottom Closer -->
+
     <section id="closing">
       <div>
       <h1>Have an interest or questions about becoming a sponsor?</h1>
       <h2>Fill out the attached form to the right or send inquiries to the email listed below!</h2>
       </div>
-      <button type="">BECOME A SPONSOR</button>
+      <button type="">BECOME A SPONSOR</button> <!-- SPONSOR SHIP FORM BUTTON (ATTACH DOCUMENT) -->
     </section>
+
+    <!-- Footer info -->
+
     <footer>
       <div style="display: flex; align-items: center; gap: 2rem; margin-bottom: 1rem;">
           <img style="width: 100px; height: 100px;" src="https://i.postimg.cc/J7JsGs5S/Screenshot-2025-11-06-203858-removebg-preview.png">
