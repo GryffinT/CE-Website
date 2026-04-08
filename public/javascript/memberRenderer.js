@@ -64,7 +64,7 @@ const members = {
   
     { name: "Lydia Miller", desc: "I Work in both the build and social media teams", role: "Media Leader", img: "https://i.postimg.cc/v8vZYGmx/608A5363-Lydia-Miller.jpg" },
     { name: "Aadi Kushwaha", desc: "I work on business, outreach, and, some building.", role: "Head", img: "https://i.postimg.cc/3JRY3pVd/Screenshot-2026-01-28-4-16-29-PM-Kanishka-Kushwaha.png" },
-    { name: "Victor Lawson", desc: "I manage the budget and help head outreach.", role: "Captain", img: "https://i.postimg.cc/bwx6MVgY/istockphoto-2171382633-612x612.jpg" }
+    { name: "Victor Lawson", desc: "I manage the budget and help head outreach.", role: "Captain", img: "https://i.postimg.cc/bwx6MVgY/istockphoto-2171382633-612x612.jpg" },
     { name: "Sophia Mundt", desc: "I am involved with business.", role: "Member", img: "https://i.postimg.cc/bwx6MVgY/istockphoto-2171382633-612x612.jpg" },
   ],
 
@@ -80,7 +80,7 @@ const members = {
 
   electrical: [
     
-    { name:  "Sam Shierloh", desc: "I work on the electrical components of the robot.", role: "Captain", img: "https://pub-1407f82391df4ab1951418d04be76914.r2.dev/uploads/5a3a5909-c697-4498-be6d-fff92afab1f8.jpg" }
+    { name:  "Sam Shierloh", desc: "I work on the electrical components of the robot.", role: "Captain", img: "https://pub-1407f82391df4ab1951418d04be76914.r2.dev/uploads/5a3a5909-c697-4498-be6d-fff92afab1f8.jpg" },
     { name: "Adam Eaton", desc: "I drive the robot during competitions.", role: "Driver", img: "https://i.postimg.cc/bwx6MVgY/istockphoto-2171382633-612x612.jpg" },
 
   ]
