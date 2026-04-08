@@ -56,28 +56,32 @@ const members = {
   
     { name: "Luke Newton", desc: "I do CAD, Onshape, and enjoy spending time with my friends.", role: "Lead CAD Designer", img: "https://i.postimg.cc/Xv2tHDN5/20250419-123840-Luke-Newton.jpg" },
     { name: "Gryffin Tubon", desc: "I handle website maintenance and programming.", role: "Programmer", img: "https://i.postimg.cc/bwx6MVgY/istockphoto-2171382633-612x612.jpg" },
-  
+    { name: "Liam McDermott", desc: "I assist with programming.", role: "Programmer", img: "https://i.postimg.cc/bwx6MVgY/istockphoto-2171382633-612x612.jpg" },
+    { name: "Veronica Valenza-Yu", desc: "I work on programming and build.", role: "Member", img: "https://i.postimg.cc/bwx6MVgY/istockphoto-2171382633-612x612.jpg" },
   ],
 
   business: [
   
     { name: "Lydia Miller", desc: "I Work in both the build and social media teams", role: "Media Leader", img: "https://i.postimg.cc/v8vZYGmx/608A5363-Lydia-Miller.jpg" },
-    { name: "Aadi Kushwaha", desc: "I do Business, outreach, and, some building.", role: "Head", img: "https://i.postimg.cc/3JRY3pVd/Screenshot-2026-01-28-4-16-29-PM-Kanishka-Kushwaha.png" },
-    { name: "Victor Lawson", desc: "I manage the budget and help head outreach", role: "Captain", img: "https://i.postimg.cc/bwx6MVgY/istockphoto-2171382633-612x612.jpg" }
-  
+    { name: "Aadi Kushwaha", desc: "I work on business, outreach, and, some building.", role: "Head", img: "https://i.postimg.cc/3JRY3pVd/Screenshot-2026-01-28-4-16-29-PM-Kanishka-Kushwaha.png" },
+    { name: "Victor Lawson", desc: "I manage the budget and help head outreach.", role: "Captain", img: "https://i.postimg.cc/bwx6MVgY/istockphoto-2171382633-612x612.jpg" }
+    { name: "Sophia Mundt", desc: "I am involved with business.", role: "Member", img: "https://i.postimg.cc/bwx6MVgY/istockphoto-2171382633-612x612.jpg" },
   ],
 
   build: [
   
     { name: "Oakley Thelen", desc: "As a captain of the build team, I am involved in the planning, design, and crafting of our robot. I enjoy sharing ideas and brainstorming with teammates and the process of building, testing, and modifying to create our best possible final robot.", role: "Co-Captain", img: "https://i.postimg.cc/6pZsQh0W/IMG-3990-Oakley-Thelen.jpg" },
     { name: "Benjamin Shierloh", desc: "I work on the robot and enjoy the hands on components.", role: "Underling", img: "https://i.postimg.cc/bwx6MVgY/istockphoto-2171382633-612x612.jpg" },
-  
+    { name: "Sergio Cabada", desc: "I build game pieces and help design the robot.", role: "Member", img: "https://pub-1407f82391df4ab1951418d04be76914.r2.dev/uploads/c81cee14-8554-41e9-887d-4432d28b9309.jpeg" },
+    { name: "Tinashe Hampton", desc: "I help with building and competition.", role: "Member", img: "https://i.postimg.cc/bwx6MVgY/istockphoto-2171382633-612x612.jpg" },
+    { name: "Matt Martin", desc: "I assist with build, design, and driving.", role: "Head", img: "https://i.postimg.cc/bwx6MVgY/istockphoto-2171382633-612x612.jpg" },
+    { name: "Eyram Xexemeku", desc: "I help build parts for the robot.", role: "Member", img: "https://i.postimg.cc/bwx6MVgY/istockphoto-2171382633-612x612.jpg" },
   ],
 
   electrical: [
     
-    { name:  "Sam Shierloh", desc: "I work on the electrical components", role: "Captain", img: "https://pub-1407f82391df4ab1951418d04be76914.r2.dev/uploads/059dd0c9-c800-49cb-bb34-64882c0251ea.jpg" }
-
+    { name:  "Sam Shierloh", desc: "I work on the electrical components of the robot.", role: "Captain", img: "https://pub-1407f82391df4ab1951418d04be76914.r2.dev/uploads/5a3a5909-c697-4498-be6d-fff92afab1f8.jpg" }
+    { name: "Adam Eaton", desc: "I drive the robot during competitions.", role: "Driver", img: "https://i.postimg.cc/bwx6MVgY/istockphoto-2171382633-612x612.jpg" },
 
   ]
 
