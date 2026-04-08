@@ -63,16 +63,17 @@ const members = {
   business: [
   
     { name: "Lydia Miller", desc: "I Work in both the build and social media teams", role: "Media Leader", img: "https://i.postimg.cc/v8vZYGmx/608A5363-Lydia-Miller.jpg" },
-    { name: "Aadi Kushwaha", desc: "I work on business, outreach, and, some building.", role: "Head", img: "https://i.postimg.cc/3JRY3pVd/Screenshot-2026-01-28-4-16-29-PM-Kanishka-Kushwaha.png" },
-    { name: "Victor Lawson", desc: "I manage the budget and help head outreach.", role: "Captain", img: "https://i.postimg.cc/bwx6MVgY/istockphoto-2171382633-612x612.jpg" },
+    { name: "Aadi Kushwaha", desc: "I work on business, outreach, and, some building.", role: "Head", img: "https://image2url.com/r2/default/images/1775685582454-a5e133a5-8e5b-4b77-9c24-6b6a959e94c1.jpeg" },
+    { name: "Victor Lawson", desc: "I manage the budget and help head outreach.", role: "Captain", img: "https://image2url.com/r2/default/images/1775685539328-f2fe815f-e1c1-4ece-819c-9a677b243a4c.jpeg" },
     { name: "Sophia Mundt", desc: "I am involved with business.", role: "Member", img: "https://i.postimg.cc/bwx6MVgY/istockphoto-2171382633-612x612.jpg" },
   ],
 
   build: [
-  
+
+    { name: "Ella Buelling", desc: "I am the founder of the club. I work on programming, build, and driving.", role: "Captian", img: "https://i.postimg.cc/bwx6MVgY/istockphoto-2171382633-612x612.jpg" },
     { name: "Oakley Thelen", desc: "As a captain of the build team, I am involved in the planning, design, and crafting of our robot. I enjoy sharing ideas and brainstorming with teammates and the process of building, testing, and modifying to create our best possible final robot.", role: "Co-Captain", img: "https://i.postimg.cc/6pZsQh0W/IMG-3990-Oakley-Thelen.jpg" },
     { name: "Benjamin Shierloh", desc: "I work on the robot and enjoy the hands on components.", role: "Underling", img: "https://i.postimg.cc/bwx6MVgY/istockphoto-2171382633-612x612.jpg" },
-    { name: "Sergio Cabada", desc: "I build game pieces and help design the robot.", role: "Member", img: "https://pub-1407f82391df4ab1951418d04be76914.r2.dev/uploads/c81cee14-8554-41e9-887d-4432d28b9309.jpeg" },
+    { name: "Sergio Cabada", desc: "I build game pieces and help design the robot.", role: "Member", img: "https://image2url.com/r2/default/images/1775685631065-001efdb6-e117-4189-a6e5-f7741459ac42.jpeg" },
     { name: "Tinashe Hampton", desc: "I help with building and competition.", role: "Member", img: "https://i.postimg.cc/bwx6MVgY/istockphoto-2171382633-612x612.jpg" },
     { name: "Matt Martin", desc: "I assist with build, design, and driving.", role: "Head", img: "https://i.postimg.cc/bwx6MVgY/istockphoto-2171382633-612x612.jpg" },
     { name: "Eyram Xexemeku", desc: "I help build parts for the robot.", role: "Member", img: "https://i.postimg.cc/bwx6MVgY/istockphoto-2171382633-612x612.jpg" },
