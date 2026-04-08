@@ -76,7 +76,7 @@ const members = {
 
   electrical: [
     
-    { name:  "Sam Shierloh", desc: "I work on the electrical components", role: "Captain", img: "https://i.postimg.cc/bwx6MVgY/istockphoto-2171382633-612x612.jpg" }
+    { name:  "Sam Shierloh", desc: "I work on the electrical components", role: "Captain", img: "https://pub-1407f82391df4ab1951418d04be76914.r2.dev/uploads/059dd0c9-c800-49cb-bb34-64882c0251ea.jpg" }
 
 
   ]
