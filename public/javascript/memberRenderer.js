@@ -70,9 +70,9 @@ const members = {
 
   build: [
 
-    { name: "Ella Buelling", desc: "I am the founder of the club. I work on programming, build, and driving.", role: "Captian", img: "https://i.postimg.cc/bwx6MVgY/istockphoto-2171382633-612x612.jpg" },
+    { name: "Ella Buelling", desc: "I am the founder of the club. I work on programming, build, and driving.", role: "Captain", img: "https://i.postimg.cc/bwx6MVgY/istockphoto-2171382633-612x612.jpg" },
     { name: "Oakley Thelen", desc: "As a captain of the build team, I am involved in the planning, design, and crafting of our robot. I enjoy sharing ideas and brainstorming with teammates and the process of building, testing, and modifying to create our best possible final robot.", role: "Co-Captain", img: "https://i.postimg.cc/6pZsQh0W/IMG-3990-Oakley-Thelen.jpg" },
-    { name: "Benjamin Shierloh", desc: "I work on the robot and enjoy the hands on components.", role: "Underling", img: "https://i.postimg.cc/bwx6MVgY/istockphoto-2171382633-612x612.jpg" },
+    { name: "Benjamin Schierloh", desc: "I work on the robot and enjoy the hands on components.", role: "Underling", img: "https://i.postimg.cc/bwx6MVgY/istockphoto-2171382633-612x612.jpg" },
     { name: "Sergio Cabada", desc: "I build game pieces and help design the robot.", role: "Member", img: "https://image2url.com/r2/default/images/1775685631065-001efdb6-e117-4189-a6e5-f7741459ac42.jpeg" },
     { name: "Tinashe Hampton", desc: "I help with building and competition.", role: "Member", img: "https://i.postimg.cc/bwx6MVgY/istockphoto-2171382633-612x612.jpg" },
     { name: "Matt Martin", desc: "I assist with build, design, and driving.", role: "Head", img: "https://i.postimg.cc/bwx6MVgY/istockphoto-2171382633-612x612.jpg" },
@@ -81,7 +81,7 @@ const members = {
 
   electrical: [
     
-    { name:  "Sam Shierloh", desc: "I work on the electrical components of the robot.", role: "Captain", img: "https://pub-1407f82391df4ab1951418d04be76914.r2.dev/uploads/5a3a5909-c697-4498-be6d-fff92afab1f8.jpg" },
+    { name:  "Sam Schierloh", desc: "I work on the electrical components of the robot.", role: "Captain", img: "https://pub-1407f82391df4ab1951418d04be76914.r2.dev/uploads/5a3a5909-c697-4498-be6d-fff92afab1f8.jpg" },
     { name: "Adam Eaton", desc: "I drive the robot during competitions.", role: "Driver", img: "https://i.postimg.cc/bwx6MVgY/istockphoto-2171382633-612x612.jpg" },
 
   ]
