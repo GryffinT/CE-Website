@@ -24,9 +24,9 @@ const events = [
 
 for (const event of events) {
 
-  let image = new Element('img', event.image);
-  let title = new Element('h1', event.name);
-  let desc = new Element('p', event.description);
+  let image = new ELMNT('img', event.image);
+  let title = new ELMNT('h1', event.name);
+  let desc = new ELMNT('p', event.description);   
   let card = document.createElement('div');
 
   card.appendChild(image.el);
