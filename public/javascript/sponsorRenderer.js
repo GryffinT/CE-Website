@@ -50,6 +50,15 @@ class ELMNT {
 // Flattened list of ALL sponsors, regardless of tier
 const allSponsors = [
   { name: "Nasa", desc: "Donated for ...", role: "$2,000", img: "https://www.nasa.gov/wp-content/uploads/2023/04/nasa-logo-web-rgb.png" },
+  { name: "PIKE Technologies ", desc: "Donated for ...", role: "$"},
+  { name: "The Robonauts ", desc: "Donated for ...", role: "$"},
+  { name: "TouchPad Electronics ", desc: "Donated for ...", role: "$"},
+  { name: "AmtelCo ", desc: "Donated for ...", role: "$"},
+  { name: "Wisconsin Dept. Of Public Instruction ", desc: "Donated for ...", role: "$"},
+  { name: "Argosy Foundation ", desc: "Donated for ...", role: "$"},
+  { name: "DOOSAN Bobcat ", desc: "Donated for ...", role: "$"},
+  { name: "Gene Haas Foundation ", desc: "Donated for ...", role: "$"},
+  { name: "Strand Associates ", desc: "Donated for ...", role: "$"}
   // Add other sponsors from other tiers here as needed
   // { name: "Google", desc: "Supports innovation", role: "$1,500", img: "https://logo.clearbit.com/google.com" },
 ];
