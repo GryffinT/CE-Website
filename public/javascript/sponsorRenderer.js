@@ -75,7 +75,7 @@ allSponsors.forEach(sponsor => {
   let image = new ELMNT('img', sponsor.img);
   let name = new ELMNT('h1', sponsor.name);
   let desc = new ELMNT("p", sponsor.desc);
-  let role = new ELMNT("p", sponsor.role);
+  let role = new ELMNT("p", sponsor.role, "no-margin");   
 
   //card.appendChild(image.el);
   card.appendChild(name.el);
