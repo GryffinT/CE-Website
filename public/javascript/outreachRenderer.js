@@ -1,3 +1,21 @@
+class ELMNT {
+  constructor(type, text, CSSclass, event, handler, id) {
+    this.el = document.createElement(type);
+
+    if (text && type.toLowerCase() === 'input') {
+      this.el.placeholder = text;
+    } else if (text && type.toLowerCase() === "img") {
+      this.el.src = text;
+    } else if (text) {
+      this.el.innerHTML = text;
+    }
+
+    if (id) this.el.id = id;
+    if (CSSclass) this.el.classList.add(CSSclass);
+    if (event && handler) this.el.addEventListener(event, handler);
+  }
+}   
+
 document.addEventListener('DOMContentLoaded', () => {
   const canvas = document.getElementById('canvas');
   if (!canvas) {
