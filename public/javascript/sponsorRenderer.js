@@ -47,69 +47,33 @@ class ELMNT {
 
 
 
-const members = {
-  
-  programmers: [ // Actually Crusader Champion
-  
-    { name: "Nasa", desc: "Donated for ...", role: "$2,000", img: "https://www.nasa.gov/wp-content/uploads/2023/04/nasa-logo-web-rgb.png" },
-  
-  ],
+// Flattened list of ALL sponsors, regardless of tier
+const allSponsors = [
+  { name: "Nasa", desc: "Donated for ...", role: "$2,000", img: "https://www.nasa.gov/wp-content/uploads/2023/04/nasa-logo-web-rgb.png" },
+  // Add other sponsors from other tiers here as needed
+  // { name: "Google", desc: "Supports innovation", role: "$1,500", img: "https://logo.clearbit.com/google.com" },
+];
 
-  business: [ // Actually Commander
-  
-  
-  ],
+// Get a single container from the HTML (you must have this in your HTML)
+const container = document.getElementById('all-sponsors');
 
-  build: [ // Actually Knight
-  
-  
-  ],
+// Render all sponsors in one loop
+allSponsors.forEach(sponsor => {
+  let hr = document.createElement('hr');
+  let card = document.createElement('div');
+  card.classList.add('memberCard');
 
-  electrical: [ // Actually Squire
+  let image = new ELMNT('img', sponsor.img);
+  let name = new ELMNT('h1', sponsor.name);
+  let desc = new ELMNT("p", sponsor.desc);
+  let role = new ELMNT("p", sponsor.role);
 
+  card.appendChild(image.el);
+  card.appendChild(name.el);
+  card.appendChild(role.el);
+  card.appendChild(hr);
+  card.appendChild(desc.el);
 
-
-  ]
-
-};
-
-/*
- * These are the different tier containers, to add new tiers do the following:
- * Create a new tier container in HTML and assign the ID to the tier name!
- * then register the tier below following the format below!
- */
-
-const containers = {
-  programmers: document.getElementById('programmers'),
-  business: document.getElementById('business'),
-  build: document.getElementById('build'),
-  electrical: document.getElementById('electrical')
-};
-
-// Dont edit below!
-
-for (const divisionName in members) {
-  const divisionMembers = members[divisionName];
-  const container = containers[divisionName];
-
-  for (const member of divisionMembers) {
-
-    let hr = document.createElement('hr');
-    let card = document.createElement('div');
-    card.classList.add('memberCard');
-
-    let image = new ELMNT('img', member.img);
-    let name = new ELMNT('h1', member.name);
-    let desc = new ELMNT("p", member.desc);
-    let role = new ELMNT("p", member.role);
-
-    card.appendChild(image.el);
-    card.appendChild(name.el);
-    card.appendChild(role.el);
-    card.appendChild(hr);
-    card.appendChild(desc.el);
-
-    container.appendChild(card);
-  }
-}
+  container.appendChild(card);
+});
 
